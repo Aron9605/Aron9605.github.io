@@ -1,0 +1,9 @@
+.navbg { background-color: #d3d2ce; }
+.bgimg {
+    background-image: url(../img/bp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	padding-top: 12rem!important;
+    padding-bottom: 12rem!important;
+}
