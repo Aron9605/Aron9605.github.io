@@ -1,13 +1,56 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+h2.section-title {
+      background: linear-gradient(135deg, #6c8791, #6c8791);
+      padding: 20px 25px;
+      margin: 40px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      color: #333;
+}
+h2.section-title:hover {
+      color: white;
+      transition: color 0.3s ease;
+}
 .navbg { background-color: #d3d2ce; }
 .bgimg {
     background-image: url(../img/bp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	padding-top: 12rem!important;
+    padding-top: 12rem!important;
     padding-bottom: 12rem!important;
 }
 .logo {
     max-height: 5rem;
     max-width: 5rem;
+}
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+h4.section-title{
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.nav-link {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
