@@ -19,6 +19,89 @@ h2.section-title:hover {
       color: white;
       transition: color 0.3s ease;
 }
+
+.experience-page-title {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 400;
+}
+
+#research > .d-flex,
+#education > .d-flex,
+#teaching > .d-flex {
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(108, 135, 145, 0.25);
+  border-left: 4px solid #6c8791;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+#research > .d-flex > .ms-1,
+#education > .d-flex > .ms-1,
+#teaching > .d-flex > .ms-1 {
+  flex: 1;
+  min-width: 0;
+  margin-left: 0 !important;
+}
+
+#research > hr,
+#education > hr,
+#teaching > hr {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+  h2.section-title {
+    padding: 15px 18px;
+    margin: 24px 0;
+    font-size: 2rem;
+  }
+
+  #research > .d-flex,
+  #education > .d-flex,
+  #teaching > .d-flex {
+    flex-direction: column;
+    padding: 1.25rem;
+  }
+
+  #research > .d-flex > .logo,
+  #education > .d-flex > .logo,
+  #teaching > .d-flex > .logo {
+    max-height: 4rem;
+    max-width: 4rem;
+  }
+
+  #research > .d-flex p a,
+  #education > .d-flex p a,
+  #teaching > .d-flex p a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    width: 100%;
+    padding: 0.65rem 0.85rem;
+    margin-top: 0.5rem;
+    border: 1px solid #6c8791;
+    border-radius: 0.5rem;
+    background-color: #f5f7f8;
+    color: #24343a;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #research > .d-flex p a:hover,
+  #research > .d-flex p a:focus,
+  #education > .d-flex p a:hover,
+  #education > .d-flex p a:focus,
+  #teaching > .d-flex p a:hover,
+  #teaching > .d-flex p a:focus {
+    background-color: #6c8791;
+    color: #fff;
+  }
+}
 .navbg { background-color: #d3d2ce; }
 .bgimg {
     background-image: url(../img/bp.jpg);
@@ -53,4 +136,31 @@ h4.section-title{
   font-size: 1.3rem;
   font-weight: 300;
   letter-spacing: 0.5px;
+}
+
+@media (min-width: 992px) {
+  .navbar .container-fluid {
+    position: relative;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    left: 50%;
+    width: max-content;
+    transform: translateX(-50%);
+  }
+}
+
+.github-callout {
+  padding: 2rem;
+  border: 1px solid rgba(108, 135, 145, 0.3);
+  border-left: 5px solid #6c8791;
+  border-radius: 0.75rem;
+  background-color: #eef2f3;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.github-callout-icon {
+  color: #24292f;
+  font-size: 3rem;
 }

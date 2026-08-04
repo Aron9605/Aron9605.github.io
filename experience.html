@@ -40,9 +40,15 @@
 		</div>
 	  </div>
 	</nav>
-   </header>
+	</header>
 	<main role="main">
 		<div class="container">
+			<h1 class="experience-page-title text-center mt-5 mb-3">Research &amp; Experience</h1>
+			<nav class="d-flex flex-wrap justify-content-center gap-2 pb-2" aria-label="Experience sections">
+				<a class="btn btn-outline-secondary" href="#research">Research</a>
+				<a class="btn btn-outline-secondary" href="#education">Education</a>
+				<a class="btn btn-outline-secondary" href="#teaching">Teaching &amp; Supervision</a>
+			</nav>
 			<div class="row align-items-center py-5">
 				<div class="col-md-12">
 					<div id="research" >
@@ -51,13 +57,21 @@
 						 <img src="img/pqi.png" alt="PQI" class="img-responsive img-rounded logo">
 						 <div class="ms-1">
 							<div class="d-flex flex-column pb-3">
-							 <span class="h6">Research Assistant</span>
+							 <span class="h6">Postdoctoral Research Assistant</span>
 							 <span>PQI – Portuguese Quantum Institute · Full-time</span>
 							 <small class="text-muted">Dec 2024 - Present</small>
 							 <small class="text-muted">Lisbon, Portugal</small>
 							</div>
 							<p>Working on quantum networks and sensing technologies, exploring their applications to drive innovation and solve complex real-world challenges. Focus areas include quantum network architectures and protocols, entanglement generation and scalable distribution techniques, and scalable long-distance distributed quantum network simulations.</p>
-							<p>Skills: PennyLane · Distributed Quantum Sensor Networks · Multipartite Entanglement Distribution · Scalable Distillation Techniques</p>
+							<div class="d-flex flex-column mt-3 pt-3 pb-3 border-top border-secondary">
+							 <span class="h6">Quantum Software Team Lead</span>
+							 <span>PQI – Portuguese Quantum Institute · Full-time</span>
+							 <small class="text-muted">Jan 2026 - Present</small>
+							 <small class="text-muted">Lisbon, Portugal</small>
+							</div>
+							<p>Coordinating research on distributed quantum algorithms, non-local quantum games, quantum machine learning, and the use of entanglement as a resource for distributed quantum computing.</p>
+							<p>As a research leader, I value collaboration, mentorship, and interdisciplinary thinking, believing that transformative innovation is achieved through collective effort and a shared vision for the future of science and technology.</p>
+							<p>Skills: PennyLane · Distributed Quantum Sensor Networks · Multipartite Entanglement Distribution · Scalable Distillation Techniques · Team Leadership</p>
 						
 						 </div>
 					  </div>
@@ -71,7 +85,7 @@
 							 <small class="text-muted">Sep 2024 - Dec 2024</small>
 							 <small class="text-muted">Lisbon, Portugal</small>
 							</div>
-							<p>As part of the Quantum Internet Alliance (QIA) Internship Programme at the Portuguese Quantum Institute, I am conducting research on distributed quantum sensor networks, focusing on their applications and potential use cases. This project is being carried out within the Physics of Information and Quantum Technologies Group.</p>
+							<p>As part of the Quantum Internet Alliance (QIA) Internship Programme at the Portuguese Quantum Institute, I conducted research on distributed quantum sensor networks, focusing on their applications and potential use cases. This project was carried out within the Physics of Information and Quantum Technologies Group.</p>
 							<p>Skills: PennyLane · Quantum Sensing · Quantum Networks · Privacy</p>
 						
 						 </div>
@@ -86,10 +100,10 @@
 							 <small class="text-muted">May 2022 - 2024</small>
 							 <small class="text-muted">Budapest, Hungary</small>
 							</div>
-							<p>My domain at Wigner revolves around the design of quantum algorithms. Specifically, entanglement distillation protocols for multipartite networks. 
-								By iteratively applying these non-linear quantum protocols, we aim to obtain an enhanced noise-free entanglement. 
-								To achieve this goal, we leverage quantum-classical hybrid machine learning techniques to assist in the implementation of quantum circuits that can establish distilled entanglement with high fidelity.
-								In addition, we are implementing simulations and testing the above mentioned algorithms on real quantum devices.</p>
+							<p>My work at Wigner revolved around the design of quantum algorithms. Specifically, entanglement distillation protocols for multipartite networks.
+								By iteratively applying these non-linear quantum protocols, we aimed to obtain an enhanced noise-free entanglement.
+								To achieve this goal, we leveraged quantum-classical hybrid machine learning techniques to assist in the implementation of quantum circuits that can establish distilled entanglement with high fidelity.
+								In addition, we implemented simulations and tested the above mentioned algorithms on real quantum devices.</p>
 							<p>Skills: Qiskit · Quantum algorithms · Mathematica · Python (Programming Language) · Quantum Computing · Machine Learning</p>
 							<p><b>Discover more:</b>
 							<br /> <a href="https://doi.org/10.1016/j.physleta.2024.129349">Training iterated protocols for distillation of GHZ states with variational quantum algorithms</a>
@@ -102,7 +116,7 @@
 			<div class="row align-items-center py-5">
 				<div class="col-md-12">
 					<div id="education">
-					  <h2 class="section-title">Education</h3>
+						  <h2 class="section-title">Education</h2>
 					  <div class="d-flex">
 						 <img src="img/elte.png" alt="Eötvös Loránd University" class="img-responsive img-rounded logo">
 						 <div class="ms-1">
@@ -111,7 +125,7 @@
 							 <span>Doctor of Philosophy - PhD, Quantum computing</span>
 							 <small>2020 - 2024</small>
 							</div>
-							<p>I am researching a doctorate in the field of quantum computing.
+							<p>I completed my doctorate in the field of quantum computing.
 								My research focuses on quantum error correction, specifically which quantum computing platforms are best suited to demonstrate the efficiency of the quantum repetition phase-flip code.
 								We have derived a break-even point above which the encoded logical qubit is advantageous and preserves information longer than a single unprotected physical qubit.</p>
 							<p>Skills: Mathematica · Quantum Computing</p>
@@ -128,6 +142,7 @@
 							 <small>Sep 2017 - Sep 2020</small>
 							</div>
 							<p>I conducted research on quantum optimization through citizen science, and in my thesis, I demonstrated the realization of a spin-qubit based two-qubit logic gate, specifically the square-root-of-swap gate, through the optimization of a gate pulse shape. This posed a hard quantum mechanical optimization problem, which was gamified and transformed into a game for the public. I designed a platform where gamers drew a pulse shape within a certain time frame. Even recent classical supercomputers may find this multi-parameter optimization problem difficult to solve, but gamification utilizing human senses may be more successful.</p>
+							<p><b>GitHub Repository:</b> <a href="https://github.com/Aron9605/Quantum-Games-for-Two-Qubit-Gate-Optimization">Quantum Games for Two-Qubit Gate Optimization</a></p>
 						 </div>
 					  </div>
 					  <hr />
@@ -147,19 +162,20 @@
 			</div>
 			<div class="row align-items-center py-5">
 				<div class="col-md-12">
-					<div id="education">
-					 <h2 class="section-title">Teaching & Consulting</h2>
+					<div id="teaching">
+					 <h2 class="section-title">Teaching &amp; Supervision</h2>
 					 <div class="d-flex">
 						 <img src="img/qia.jpg" alt="QIA" class="img-responsive img-rounded logo">
 						 <div class="ms-1">
 							<div class="d-flex flex-column pb-3">
 							 <span class="h6">QIA - Quantum Internet Alliance</span>
-							 <span>Internship Supervisor ·  Student: Ionela Balint</span>
+							 <span>Internship &amp; MSc Thesis Supervisor · Student: Ionela Balint</span>
+							 <span>Politehnica University of Timișoara</span>
 							 <small>2025</small>
 							</div>
-							<p>The internship project explores GHZ state distribution in quantum networks under realistic noise conditions. The focus is on modeling a realistic, scalable, long-distance quantum network architecture which implements GHZ state distribution between remote nodes through noisy fibers. To counteract decoherence and gate errors, distillation protocols are implemented at the end nodes and at intermediate stations along the links. The aim is to study trade-offs between fidelity, success probability, resource cost, and latency, and to identify optimal strategies for distributing high-quality GHZ states across long distances.</p>	
-
-</p>	This work is carried out under the Quantum Internet Alliance (QIA) Internship Programme at the Portuguese Quantum Institute, within the Physics of Information and Quantum Technologies Group.</p>												
+							<p>The internship project explores GHZ state distribution in quantum networks under realistic noise conditions. The focus is on modeling a realistic, scalable, long-distance quantum network architecture which implements GHZ state distribution between remote nodes through noisy fibers. To counteract decoherence and gate errors, distillation protocols are implemented at the end nodes and at intermediate stations along the links. The aim is to study trade-offs between fidelity, success probability, resource cost, and latency, and to identify optimal strategies for distributing high-quality GHZ states across long distances.</p>
+							<p>This work is carried out under the Quantum Internet Alliance (QIA) Internship Programme at the Portuguese Quantum Institute, within the Physics of Information and Quantum Technologies Group.</p>
+							<p><b>GitHub Repository:</b> <a href="https://github.com/Aron9605/ghz-distribution-internship">GHZ Distribution Internship</a></p>
 						 </div>
 					  </div>
 					  <hr />
